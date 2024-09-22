@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label><b>enter your name</b></label>
+        <input type="text" placeholder="name"><br>
+        <label><b>enter your Father'name</b></label>
+        <input type="text" placeholder="Father'name"><br>
+        <label><b>enter your Mother'name</b></label>
+        <input type="text" placeholder="Mother'name"><br>
+
+
+        <label>enter your password</label>
+        <input type="password" placeholder="password">
+        <br>
+        <label>Gender</label><br>
+        <input type="radio" name="1">Male
+        <input type="radio" name="1">Female
+        <br></fieldset><br>
+        <fieldset>
+            <legend>Academic Detail</legend>
+        <label> entre the subject</label><br>
+        <input type="checkbox">maths<br>
+        <input type="checkbox">English<br>
+        <input type="checkbox"> Bio<br>
+        <input type="checkbox">Physics<br>
+        <input type="checkbox">Chemistry<br></fieldset><br>
+        <input type="number" name="a">+
+        <input type="number" name="b">=
+        <output name="x" for="a b"></output><br>
+        <label>Select your Grade</label>
+        <select name="Grade">
+            <option value="Grade 9">Grade 9</option>
+            <option value="Grade 10">Grade 10</option>
+            <option value="11">Grade 11</option>
+            <option value="12">Grade 12</option>
+        </select>
+        
+    </form>
+</body>
+</html>
